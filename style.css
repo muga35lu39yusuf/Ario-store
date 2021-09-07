@@ -4,9 +4,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color:whitesmoke;
+    font-size: small;
 
 }
-#maincontent {
+#maincontent  {
     background-color: darkturquoise;
 
 }
@@ -18,8 +19,9 @@ nav {
 }
 #leftmenu{
     float: left;
-    width: 30%;
+    width: 20%;
     margin-bottom: 20px;
+    padding: 2px;
 }
 .searchbox{
     padding: 5px;
@@ -28,8 +30,9 @@ nav {
 }
 #main{
     float: right;
-    width: 70%;
+    width: 60%;
     margin-bottom: 20px;
+    font-family: Helvetica,Arial, sans-serif, ;
 }
 footer{
     clear: both;
@@ -52,6 +55,5 @@ nav>ul>li{
     color: white;
     text-align: center;
     padding: 16px;
-    text-decoration: none;
     font-weight: bold;
 }

@@ -7,14 +7,18 @@
         <link rel="stylesheet" href="style.css">
         <style>
             
+            
         </style>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     </head>
     <body>
       <header id="maincontent">
           <nav>
               <ul>
-                  <li><img src="logo.jpeg" height="60"></li>
+                  <li><img src="logo.jpeg" height="60" ></li><br>
                   <li><a href="index.html">Home</a></li>
                   <li><a href="ariobes.html">All Ariobes</a></li>
               </ul>
@@ -30,9 +34,9 @@
               </header>
               <ul>
                   <li> <a href="ariobes.html"> All Ariobes</a></li>
-                  <li> <a href="ariobes.html"> All Glowing Beads</a></li>
-                  <li> <a href="ariobes.html"> All Bestfriends bracelets</a></li>
-                  <li> <a href="ariobes.html"> All Adjustables</a></li>
+                  <li> <a href="glowing beads.html"> All Glowing Beads</a></li>
+                  <li> <a href="best friends.html"> All Bestfriends bracelets</a></li>
+                  <li> <a href="adjustables.html"> All Adjustables</a></li>
                   <li> <a href="#promo"> promotions</a></li>
               </ul>
              
@@ -45,7 +49,7 @@
                     <h1 style="font-size: 40px;">Welcome to Ariobes-store</h1>
                 </header>
                 <figure> <img src="logo.jpeg" >
-                    <figcaption>Silver Adjustable Ariobes</figcaption>
+<!--<figcaption>Silver Adjustable Ariobes</figcaption>-->
                 </figure>
                 <h2>About Ariobes</h2>
         <p><b> Looking for Wrist Wears around town? <br>Look no where,Ariobes has got your back
@@ -73,6 +77,112 @@
       </div>
         
     </body>
+    <script>
+
+        function names(name){
+            let result = '';
+
+            if(name ==="yusuf"){
+                result ='He is yusuf';
+            }else if(name=== 'charles'){
+                result = 'He is charles';
+            }else{
+                result = 'i dont know him';
+           }
+           return result;
+        } 
+         let message = names('yusuf');
+         //console.log(message)
+         let firstname = 'yusuf';
+         let lastname = 'mugalu'
+         let email= 'mugaluyusu35@gmail.com'
+         let age = 23;
+         let comapny ='Ario_store'
+         let employee ='Arin Herbs'
+
+         let person = {
+             firstname:"yusuf",
+             lastname:'mugalu',
+             email:"mugaluyusu35@gmail.com",
+             age:23,
+             comapny:'Ario_store',
+             employee:'Arin Herbs',
+             names :function(){
+                 //console.log("my name is "+this.firstname);
+
+             }
+         };
+         //console.log('person.names')
+         person.names();
+         const people = ['Amanda', 'Farrin', 'Geoff', 'Karen', 'Richard', 'Tyler']
+         const excitedpeople =[]
+         for (let i=0;i<people.length;i++){
+             excitedpeople[i]=people[i] +'!'
+
+         }
+         //console.log(excitedpeople)
+         for( var i=0;i<10;i++){
+            //
+           // console.log(i)
+         }
+
+        let c1 = 1.8;
+        let c2 = 32;
+var fahr = 53.6;
+var cel = '';
+cel = (fahr -c2)/c1
+//console.log(cel)
+var name = 'yusufu'
+for(let i = 0; i < name.length;i++){
+     //console.log(name[i])
+}
+//console.log("whats mahns\"\"its what it is")
+var food = 'Rice'
+//console.log(food)
+var thing2 = 'blue';
+var thing1 = 'red';
+//console.log(thing1 +' '+ thing2)
+var name = 'myusuf';
+//console.log(name)
+var bill = 10.25 + 3.99 + 7.15;
+var tip = bill*(5/100);
+var total = bill + tip;
+var totals = '$'+ total.toFixed(1);
+//console.log(totals)
+var x = 2;
+var y = 4
+if (y>2 ){
+    //console.log('y is greater than x')
+
+}else{
+    //console.log('x is less than y')
+}
+    function heatPizza(numOfSlices){
+
+    }
+   /// heatpizza(2)
+
+    function laugh() {
+        var laughters = "hahahahahahahahahahahahahaha"
+        return laughters;
+    }
+    console.log(laugh());
+
+
+    function laugh(num) {
+        //var num = 'ha'
+        var numb = "ha";
+        for(i < 0;i<=num;i++){
+           return numb+numb;
+        }
+       // return numb;
+    }
+    console.log(laugh(3));
+
+
+
+
+    </script>
 </html> 
 
 <!--<
